@@ -24,8 +24,6 @@ const PublicJournalsScreen = () => {
     const [editMode, setEditMode] = useState(false);
     const [editedJournal, setEditedJournal] = useState('');
     const [selectedJournalId, setSelectedJournalId] = useState(null);
-
-    // Dummy initial data (replace with actual data fetching)
     useState(() => {
         setJournals([
             { id: '1', title: 'Journal 1', content: 'This is the content of Journal 1' },

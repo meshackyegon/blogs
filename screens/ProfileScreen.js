@@ -7,7 +7,7 @@ const ProfileScreen = () => {
 
     return (
         <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-            <Text>PROFILE SCREEN</Text>
+            <Text>Profile Screen</Text>
         </View>
     );
 };
